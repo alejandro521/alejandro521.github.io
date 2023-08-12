@@ -1,1 +1,4 @@
-p { color: red; }
+body {
+    background-color: #333333; /* Replace with your desired background color */
+}
+p { color: #FFFFFF; }

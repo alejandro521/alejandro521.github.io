@@ -7,11 +7,19 @@ body {
 h1 {
     color: #FFC107;
 }
+h1:hover {
+    color: #FFFFFF;
+}
 h2 {
     color: #1E88E5;
 }
-p, ul { 
+ul { 
     color: #FFFFFF;
+    padding-left: 20px;
+    max-width: 500px;
+}
+ul:hover { 
+    color: #FFC107;
     padding-left: 20px;
     max-width: 500px;
 }
@@ -19,8 +27,15 @@ a {
     color: #FFC107;
     padding-left: 20px;
 }
+a:hover {
+    color: #ef6666;
+    padding-left: 20px;
+}
 .profile-image {
-    border-radius: 25px;
+    border-radius: 100px;
+}
+.profile-image:hover {
+    border-radius: 10px;
 }
 .centered {
     display: flex;

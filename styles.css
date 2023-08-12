@@ -8,13 +8,13 @@ h1 {
 h2 {
     color: #1E88E5;
 }
-p { 
+p, ul { 
     color: #FFFFFF;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 a {
     color: #FFC107;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 .rounded-image {
     border-radius: 20px; /* Adjust the value to control the roundness */
